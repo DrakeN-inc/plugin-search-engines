@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex video search engine",
+  "short_name": "yandex-video-search",
+  "description": "Adds the Yandex video search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Yandex Video",
+      "keyword": "@video",
+      "search_url": "https://yandex.ru/video/search?text={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-video",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yandex-video-search@draken.inc"
+    }
+  }
+}

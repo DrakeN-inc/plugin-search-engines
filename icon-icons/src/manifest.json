@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Icon-Icons search engine",
+  "short_name": "icon-icons-search",
+  "description": "Adds the Icon-Icons search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Icon-Icons",
+      "keyword": "@icon-icons",
+      "search_url": "https://icon-icons.com/search/icons/?filtro={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/icon-icons",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "icon-icons-search@draken.inc"
+    }
+  }
+}

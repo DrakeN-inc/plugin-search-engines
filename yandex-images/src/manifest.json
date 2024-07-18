@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex images search engine",
+  "short_name": "yandex-images-search",
+  "description": "Adds the Yandex images search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Yandex Images",
+      "keyword": "@images",
+      "search_url": "https://yandex.ru/images/search?text={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-images",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yandex-images-search@draken.inc"
+    }
+  }
+}

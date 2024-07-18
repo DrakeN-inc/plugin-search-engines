@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" version="1.1" xml:space="preserve">
+ <defs>
+  <linearGradient id="svg_6">
+   <stop id="jq_stop_8368" offset="0" stop-color="#ededed" stop-opacity="1"/>
+   <stop id="jq_stop_4600" offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path d="m512.41,477.85c0,17.56 -14.28,31.84 -31.84,31.84l-445.7,0c-17.56,0 -31.84,-14.27 -31.84,-31.84l0,-445.7c0,-17.56 14.28,-31.84 31.84,-31.84l445.7,0c17.56,0 31.84,14.28 31.84,31.84l0,445.7z" fill="url(#svg_6)" id="svg_2" stroke="#f7efef"/>
+  </g>
+  <line fill="none" id="svg_4" stroke="null" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" x1="-357.79" x2="-578.48" y1="1.28" y2="249.55"/>
+  <text fill="#bfbfbf" font-family="Sans-serif" font-size="24" font-weight="bold" id="svg_5" stroke="null" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="matrix(1, 0, 0, 1, 0, 0) matrix(16.2661, 0, 0, 16.0283, -3013.15, -3470.61)" x="201.44" xml:space="preserve" y="241.81">A</text>
+  <text fill="#f72c3d" font-family="Sans-serif" font-size="24" font-weight="bold" id="svg_7" stroke="null" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="matrix(16.0174, -0.0478208, 0.0341963, 16.0977, -2969.39, -3482.06)" x="201.36" xml:space="preserve" y="241.23">A</text>
+ </g>
+</svg>

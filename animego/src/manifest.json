@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AnimeGo search engine",
+  "short_name": "animego-search",
+  "description": "Adds the AnimeGo search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "AnimeGo",
+      "keyword": "@animego",
+      "search_url": "https://animego.org/search/all?q={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/animego",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "animego-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/animego/updates.json"
+    }
+  }
+}

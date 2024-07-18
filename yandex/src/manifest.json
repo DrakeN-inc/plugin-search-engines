@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex search engine",
+  "short_name": "yandex-search",
+  "description": "Adds the Yandex search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Yandex",
+      "keyword": "@yandex",
+      "search_url": "https://yandex.com/search/?text={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yandex-search@draken.inc"
+    }
+  }
+}
