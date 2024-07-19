@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Rust language crates search engine",
+  "short_name": "rust-crates-search",
+  "description": "Adds the Rust language crates page as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "256": "icons/icon.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Rust Crates",
+      "keyword": "@crates",
+      "search_url": "https://crates.io/search?q={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-crates",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rust-crates-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-crates/updates.json"
+    }
+  }
+}

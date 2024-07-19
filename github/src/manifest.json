@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub search engine",
+  "short_name": "github-search",
+  "description": "Adds the GitHub as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "GitHub",
+      "keyword": "@github",
+      "search_url": "https://github.com/search?q={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/github",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "github-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/github/updates.json"
+    }
+  }
+}

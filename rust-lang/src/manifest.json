@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Rust language search engine",
+  "short_name": "rust-lang-search",
+  "description": "Adds the Rust language documentation page as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Rust Lang",
+      "keyword": "@rust",
+      "search_url": "https://doc.rust-lang.org/std/index.html?search={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-lang",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rust-lang-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-lang/updates.json"
+    }
+  }
+}

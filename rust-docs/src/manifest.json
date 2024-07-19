@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Rust language documentations search engine",
+  "short_name": "rust-docs-search",
+  "description": "Adds the Rust language crate documentations page as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Rust Docs",
+      "keyword": "@docs",
+      "search_url": "https://docs.rs/releases/search?query={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-docs",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rust-docs-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/rust-docs/updates.json"
+    }
+  }
+}
