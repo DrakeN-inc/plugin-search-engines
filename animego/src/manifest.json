@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AnimeGo search engine",
   "short_name": "animego-search",
-  "description": "Adds the AnimeGo search engine",
+  "description": "Adds the AnimeGo as search engine",
   "version": "0.0.1",
   "author": "DrakeN-inc",
   "icons": {

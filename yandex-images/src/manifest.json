@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Yandex images search engine",
   "short_name": "yandex-images-search",
-  "description": "Adds the Yandex images search engine",
+  "description": "Adds the Yandex images as search engine",
   "version": "0.0.1",
   "author": "DrakeN-inc",
   "icons": {
@@ -20,7 +20,8 @@
   "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-images",
   "browser_specific_settings": {
     "gecko": {
-      "id": "yandex-images-search@draken.inc"
+      "id": "yandex-images-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-images/updates.json"
     }
   }
 }

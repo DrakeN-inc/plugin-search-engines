@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex translator search engine",
+  "short_name": "yandex-translator-search",
+  "description": "Adds the Yandex translator as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Yandex Translator",
+      "keyword": "@translate",
+      "search_url": "https://translate.yandex.ru/?text={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-translator",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yandex-translator-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-translator/updates.json"
+    }
+  }
+}
