@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex Music search engine",
+  "short_name": "yandex-music-search",
+  "description": "Adds the Yandex Music as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Yandex Music",
+      "keyword": "@yamusic",
+      "search_url": "https://music.yandex.ru/search?text={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-music",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yandex-music-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/yandex-music/updates.json"
+    }
+  }
+}

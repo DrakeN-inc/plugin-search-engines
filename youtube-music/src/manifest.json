@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music search engine",
+  "short_name": "youtube-music-search",
+  "description": "Adds the YouTube Music as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "YouTube Music",
+      "keyword": "@ytmusic",
+      "search_url": "https://music.youtube.com/search?q={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/youtube-music",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-music-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/youtube-music/updates.json"
+    }
+  }
+}

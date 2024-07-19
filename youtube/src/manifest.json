@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube search engine",
+  "short_name": "youtube-search",
+  "description": "Adds the YouTube as search engine",
+  "version": "0.0.1",
+  "author": "DrakeN-inc",
+  "icons": {
+    "16": "icons/icon.svg",
+    "64": "icons/icon.svg",
+    "256": "icons/icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "YouTube",
+      "keyword": "@youtube",
+      "search_url": "https://www.youtube.com/results?search_query={searchTerms}"
+    }
+  },
+  "homepage_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/youtube",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-search@DrakeN-inc",
+      "update_url": "https://github.com/DrakeN-inc/plugin-search-engines/tree/main/youtube/updates.json"
+    }
+  }
+}
